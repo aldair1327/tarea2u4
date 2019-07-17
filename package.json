@@ -1,0 +1,26 @@
+{
+  "name": "eje",
+  "version": "1.0.0",
+  "description": "",
+  "main": "_config.js",
+  "bin": {
+    "eje": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-status": "^1.3.2",
+    "mongoose": "^5.6.4",
+    "underscore": "^1.9.1",
+    "wagner-core": "^0.2.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1"
+  }
+}
